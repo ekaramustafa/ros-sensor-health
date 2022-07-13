@@ -4,7 +4,7 @@ It is helpful to check whether given topics are published and if their hz values
 
 ## Implementation
 In `sensor_health.launch` file, modify value of `topics` param in accordance with the following format:
->`/topic_name:threshold1,topic2_name:threshold2 ...`
+>`/topic1_name:threshold1,topic2_name:threshold2 ...`
 
 After starting `roscore` type the following in new terminal:
 >`roslaunch sensor_health sensor_health.launch`
