@@ -1,0 +1,21 @@
+<launch>
+
+	<node name="sensor_health" pkg="sensor_health" type="sensor_health.py" respawn="true" output="screen">
+	
+
+		<!-- $(arg) takes input from command line with given filter -->
+		<!-- 
+		<param name="topic1" value="$(arg topic1)"/>
+		<param name="topic2" value="$(arg topic2)"/>
+		<param name="thresh" value="$(arg thresh)"/>
+		-->
+		
+		<param name="topics" value="/dummy:10,/dummy1:10,/dummy2:10,/dummy3:10"/>
+		
+		
+		
+	</node>
+
+
+</launch>
+
